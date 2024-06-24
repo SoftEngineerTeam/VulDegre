@@ -42,7 +42,7 @@
 
   Run Main.java to slice code functions.
 
-- (2) **Extracting eight  types of relationship edges **:
+- (2) **Extracting eight  types of relationship edges**:
 
   `cd VulDecgre/Edge_processing/slicec_8edges_funcblock/src/main/java/sevenEdges`
 
