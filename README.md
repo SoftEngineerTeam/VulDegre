@@ -23,7 +23,7 @@
 - `$ cd VulDegre/cli`
 - `$ python train.py GGNN GraphBinaryClassification ../data/data/testcase`
 
-#### 2、 load trained model and predict
+#### 4、 load trained model and predict
 
 - ``$ cd VulDegre/cli``
 - `python test.py GGNN GraphBinaryClassification ../data/data/predict --storedModel_path "./trained_model/GGNN_GraphBinaryClassification_best.pkl"`
