@@ -75,7 +75,7 @@ https://drive.google.com/file/d/1x6hoF7G-tSYxg8AFybggypLZgMGDNHfF
 - Our self-collected dataset:
 
 ```bash
-https://drive.google.com/file/d/1x6hoF7G-tSYxg8AFybggypLZgMGDNHfF](https://drive.google.com/file/d/1P0NsDzpL75g5-EKJ59qCYK384UE2ohZ5/view?usp=drive_link
+https://drive.google.com/file/d/1P0NsDzpL75g5-EKJ59qCYK384UE2ohZ5/view?usp=drive_link
 ```
 
 **References**：
