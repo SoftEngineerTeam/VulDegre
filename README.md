@@ -7,51 +7,49 @@
     <img src="https://img.shields.io/badge/Python-3.7+-orange" alt="version"></a>
     <img src="https://img.shields.io/badge/License-MIT-red.svg" alt="mit"></a>
 </div>
+## 📥 Setup
 
+#### 1、Clone this repo
 
-## 📥 Guide
+- `$ git clone https://github.com/SoftEngineerTeam/VulDegre.git`
+
+#### 2、Install Prerequisites
+
+- `$ pip install -r requirements.txt`
+
+#### 3、Run the testcase
+
+- `$ cd VulDegre/cli`
+- `$ python train.py GGNN GraphBinaryClassification ../data/data/testcase`
+
+#### 2、 load trained model and predict
+
+- ``$ cd VulDegre/cli``
+- `python test.py GGNN GraphBinaryClassification ../data/data/predict --storedModel_path "./trained_model/GGNN_GraphBinaryClassification_best.pkl"`
+
+#### 1、Dataset
+
+## 🚨 Guide
 
 #### 1、Preprocessing
 
-- (1) **Joern**:
+- (1) **Slicing data**:
 
-  We download Joern to generate the code structure graph and we provide a compiled version of joern [here](https://zenodo.org/record/7323504#.Y3OQL3ZByUk). 
+  `cd VulDecgre/Edge_processing/slicec_8edges_funcblock/src/main/java/slice`
 
-- (2) **Parse**:
+  Run ClassifyFileOfProject.java to extract C files.
 
-  We use the `preprocessing\process.py` to use Joern.
+  Run Main.java to slice code functions.
 
-#### 2、Word2Vec
+- (2) **Extracting eight  types of relationship edges **:
 
-For each code structure graph, we use the word2vec to initialize the node representation in the graph branch and the token representation
-in the sequence branch.
+  `cd VulDecgre/Edge_processing/slicec_8edges_funcblock/src/main/java/sevenEdges`
 
-- (3) **Word2Vec Training**:
+  We use Joern to generate the code structure graph and we provide a compiled version of joern [here](https://zenodo.org/record/7323504#.Y3OQL3ZByUk). 
 
-- We use the `preprocessing\word2vec_multi.py` to train the word2vec model.
+  Run Main.java to extrace edges.
 
-- (4) **Node and Token Representation**:
-
-  We use the `preprocessing\ori_ourdevign+token.py` to generate the node representation and the token representation.
-
-#### 3、Training the LIVABLE model
-
-
-- (5) **The vulnerability detection model's training configs**:
-
-  batch_size = 64, lr = 0.0001, epoch = 100, patience = 20, opt ='RAdam', weight_decay=1e-6, class_num =2
-
-- (6) **The vulnerability type classification model's training configs**:
-
-  batch_size = 64, lr = 0.0001, epoch = 50, patience = 20, opt ='RAdam', weight_decay=1e-6, class_num = 31
-
-- (7) **Model Training**:
-
-The model implementation code is under the `code\` folder. The model can be runned from `code\main_sta.py`.
-
-## 🚨 Abstract
-
-In this paper, we propose a long-tailed software vulnerability type classification approach, called LIVABLE. LIVABLE mainly consists of two modules, including (1) vulnerability representation learning module, which improves the propagation steps in GNN to distinguish node representations by a differentiated propagation method. A sequence-to-sequence model is also involved to enhance the vulnerability representations. (2) adaptive re-weighting module, which adjusts the learning weights for different types according to the training epochs and numbers of associated samples by a novel training loss. We verify the effectiveness of LIVABLE in both type classification and vulnerability detection tasks. For vulnerability type classification, the experiments on the Fan et al. dataset show that LIVABLE outperforms the state-of-the-art methods by 24.18% in terms of the accuracy metric, and also improves the performance in predicting tails by 7.7%. To evaluate the efficacy of the vulnerability representation learning module in LIVABLE, we further compare with the recent vulnerability detection approaches on three benchmark datasets, which shows that the proposed representation learning module improves the best baselines by 4.03% on average in terms of accuracy.
+  Run concateJoern.java to concate all edges to graph.
 
 ## 🤯 Dataset
 
@@ -75,22 +73,11 @@ https://drive.google.com/drive/folders/1KuIYgFcvWUXheDhT--cBALsfy1I4utOyF
 https://drive.google.com/file/d/1x6hoF7G-tSYxg8AFybggypLZgMGDNHfF
 ```
 
-In vulnerability type classification, we extract a new dataset from Fan et al., which is in `data\` folder.
+- Our self-collected dataset:
 
-## 📅 Requirement
-
-Our code is based on Python3 (>= 3.7). There are a few dependencies to run the code. The major libraries are listed as follows:
-
-- torch (==1.9.0)
-- dgl (==0.7.2)
-- numpy (==1.22.3)
-- sklearn (==0.0)
-- pandas (==1.4.1)
-- tqdm
-
-
-
-
+```bash
+https://drive.google.com/file/d/1x6hoF7G-tSYxg8AFybggypLZgMGDNHfF
+```
 
 **References**：
 
