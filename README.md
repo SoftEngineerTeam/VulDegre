@@ -28,8 +28,6 @@
 - ``$ cd VulDegre/cli``
 - `python test.py GGNN GraphBinaryClassification ../data/data/predict --storedModel_path "./trained_model/GGNN_GraphBinaryClassification_best.pkl"`
 
-#### 1、Dataset
-
 ## 🚨 Guide
 
 #### 1、Preprocessing
@@ -54,7 +52,7 @@
 
 ## 🤯 Dataset
 
-To investigate the effectiveness of LIVABLE in vulnerability detection, we adopt three vulnerability datasets from these paper:
+To investigate the effectiveness of VulDecgre in vulnerability detection, we adopt three open-source vulnerability datasets and a self-collected dataset from these paper:
 
 - Fan et al. [1]: 
 
