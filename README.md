@@ -44,7 +44,7 @@
 
   `cd VulDecgre/Edge_processing/slicec_8edges_funcblock/src/main/java/eightEdges`
 
-  We use Joern to generate the code structure graph and we provide a compiled version of joern [here](https://zenodo.org/record/7323504#.Y3OQL3ZByUk). 
+  We use Joern to generate the code structure graph and we provide a compiled version of joern [here](). 
 
   Run Main.java to extrace edges.
 
