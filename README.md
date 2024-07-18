@@ -1,18 +1,19 @@
 <div align="center">
     <p>
     <h1>
-    VulDegre - Implementation
+    VulDecgre - Implementation
     </h1>
     <img src="https://img.shields.io/badge/Platform-linux-lightgrey" alt="version"></a>
     <img src="https://img.shields.io/badge/Python-3.7+-orange" alt="version"></a>
     <img src="https://img.shields.io/badge/License-MIT-red.svg" alt="mit"></a>
 </div>
 
+
 ## 📥 Setup
 
 #### 1、Clone this repo
 
-- `$ git clone https://github.com/SoftEngineerTeam/VulDegre.git`
+- `$ git clone https://github.com/SoftEngineerTeam/VulDecgre.git`
 
 #### 2、Install Prerequisites
 
@@ -44,7 +45,7 @@
 
   `cd VulDecgre/Edge_processing/slicec_8edges_funcblock/src/main/java/eightEdges`
 
-  We use Joern to generate the code structure graph and we provide a compiled version of joern [here](). 
+  We use Joern to generate the code structure graph and we provide a compiled version of joern. 
 
   Run Main.java to extrace edges.
 

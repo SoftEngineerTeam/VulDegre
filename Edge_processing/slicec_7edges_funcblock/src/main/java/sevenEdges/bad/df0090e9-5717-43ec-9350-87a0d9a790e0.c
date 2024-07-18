@@ -1,0 +1,4 @@
+void CWE427_Uncontrolled_Search_Path_Element__wchar_t_environment_54c_badSink(wchar_t * data)
+{
+    CWE427_Uncontrolled_Search_Path_Element__wchar_t_environment_54d_badSink(data);
+}

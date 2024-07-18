@@ -1,0 +1,4 @@
+void CWE761_Free_Pointer_Not_at_Start_of_Buffer__wchar_t_environment_54b_badSink(wchar_t * data)
+{
+    CWE761_Free_Pointer_Not_at_Start_of_Buffer__wchar_t_environment_54c_badSink(data);
+}

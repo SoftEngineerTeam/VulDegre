@@ -1,0 +1,4 @@
+void CWE789_Uncontrolled_Mem_Alloc__malloc_wchar_t_connect_socket_52b_badSink(size_t data)
+{
+    CWE789_Uncontrolled_Mem_Alloc__malloc_wchar_t_connect_socket_52c_badSink(data);
+}

@@ -1,0 +1,4 @@
+void CWE191_Integer_Underflow__int_connect_socket_postdec_53c_badSink(int data)
+{
+    CWE191_Integer_Underflow__int_connect_socket_postdec_53d_badSink(data);
+}

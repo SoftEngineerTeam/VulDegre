@@ -1,0 +1,4 @@
+void CWE761_Free_Pointer_Not_at_Start_of_Buffer__wchar_t_listen_socket_53b_badSink(wchar_t * data)
+{
+    CWE761_Free_Pointer_Not_at_Start_of_Buffer__wchar_t_listen_socket_53c_badSink(data);
+}

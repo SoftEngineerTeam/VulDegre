@@ -1,0 +1,10 @@
+void CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_67b_badSink(CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_67_structType myStruct)
+{
+    wchar_t * data = myStruct.structFirst;
+    {
+        wchar_t source[10+1] = SRC_STRING;
+        /* POTENTIAL FLAW: data may not have enough space to hold source */
+        wcscpy(data, source);
+        printWLine(data);
+    }
+}

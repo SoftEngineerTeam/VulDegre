@@ -1,0 +1,4 @@
+void CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_declare_memmove_52b_badSink(int64_t * data)
+{
+    CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_declare_memmove_52c_badSink(data);
+}

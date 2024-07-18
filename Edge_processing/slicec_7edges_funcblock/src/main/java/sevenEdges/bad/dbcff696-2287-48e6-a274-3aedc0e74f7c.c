@@ -1,0 +1,4 @@
+void CWE195_Signed_to_Unsigned_Conversion_Error__rand_memmove_53c_badSink(int data)
+{
+    CWE195_Signed_to_Unsigned_Conversion_Error__rand_memmove_53d_badSink(data);
+}

@@ -1,0 +1,4 @@
+void CWE134_Uncontrolled_Format_String__wchar_t_connect_socket_fprintf_53b_badSink(wchar_t * data)
+{
+    CWE134_Uncontrolled_Format_String__wchar_t_connect_socket_fprintf_53c_badSink(data);
+}

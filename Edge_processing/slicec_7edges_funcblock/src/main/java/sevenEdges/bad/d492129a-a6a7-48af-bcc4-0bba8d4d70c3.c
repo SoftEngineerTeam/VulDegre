@@ -1,0 +1,21 @@
+void CWE606_Unchecked_Loop_Condition__wchar_t_environment_44_bad()
+{
+    wchar_t * data;
+    /* define a function pointer */
+    void (*funcPtr) (wchar_t *) = badSink;
+    wchar_t dataBuffer[100] = L"";
+    data = dataBuffer;
+    {
+        /* Append input from an environment variable to data */
+        size_t dataLen = wcslen(data);
+        wchar_t * environment = GETENV(ENV_VARIABLE);
+        /* If there is data in the environment variable */
+        if (environment != NULL)
+        {
+            /* POTENTIAL FLAW: Read data from an environment variable */
+            wcsncat(data+dataLen, environment, 100-dataLen-1);
+        }
+    }
+    /* use the function pointer */
+    funcPtr(data);
+}

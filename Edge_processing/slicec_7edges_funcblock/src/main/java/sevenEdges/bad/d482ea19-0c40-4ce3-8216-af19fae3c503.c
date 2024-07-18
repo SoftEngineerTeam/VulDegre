@@ -1,0 +1,4 @@
+void CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_53b_badSink(twoIntsStruct * data)
+{
+    CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_53c_badSink(data);
+}

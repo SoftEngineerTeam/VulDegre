@@ -1,0 +1,4 @@
+void CWE121_Stack_Based_Buffer_Overflow__CWE129_connect_socket_52b_badSink(int data)
+{
+    CWE121_Stack_Based_Buffer_Overflow__CWE129_connect_socket_52c_badSink(data);
+}

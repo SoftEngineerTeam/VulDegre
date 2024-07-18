@@ -1,0 +1,4 @@
+void CWE194_Unexpected_Sign_Extension__listen_socket_strncpy_54c_badSink(short data)
+{
+    CWE194_Unexpected_Sign_Extension__listen_socket_strncpy_54d_badSink(data);
+}

@@ -1,0 +1,4 @@
+void CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_53b_badSink(FILE * data)
+{
+    CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_53c_badSink(data);
+}

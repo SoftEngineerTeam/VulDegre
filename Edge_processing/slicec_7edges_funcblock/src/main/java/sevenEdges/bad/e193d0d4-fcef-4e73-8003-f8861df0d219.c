@@ -1,0 +1,4 @@
+void CWE427_Uncontrolled_Search_Path_Element__wchar_t_connect_socket_54d_badSink(wchar_t * data)
+{
+    CWE427_Uncontrolled_Search_Path_Element__wchar_t_connect_socket_54e_badSink(data);
+}

@@ -1,0 +1,4 @@
+void CWE789_Uncontrolled_Mem_Alloc__malloc_wchar_t_fscanf_53b_badSink(size_t data)
+{
+    CWE789_Uncontrolled_Mem_Alloc__malloc_wchar_t_fscanf_53c_badSink(data);
+}

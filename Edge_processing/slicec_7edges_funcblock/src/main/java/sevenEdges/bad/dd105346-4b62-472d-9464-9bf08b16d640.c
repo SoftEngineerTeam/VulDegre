@@ -1,0 +1,4 @@
+void CWE134_Uncontrolled_Format_String__wchar_t_file_w32_vsnprintf_54c_badSink(wchar_t * data)
+{
+    CWE134_Uncontrolled_Format_String__wchar_t_file_w32_vsnprintf_54d_badSink(data);
+}

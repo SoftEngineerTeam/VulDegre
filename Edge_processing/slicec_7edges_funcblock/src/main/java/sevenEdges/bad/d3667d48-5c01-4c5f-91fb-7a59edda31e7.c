@@ -1,0 +1,4 @@
+void CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54b_badSink(char * password)
+{
+    CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54c_badSink(password);
+}

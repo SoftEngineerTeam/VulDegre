@@ -1,0 +1,4 @@
+void CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_loop_54b_badSink(twoIntsStruct * data)
+{
+    CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_loop_54c_badSink(data);
+}

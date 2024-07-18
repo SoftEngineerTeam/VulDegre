@@ -1,0 +1,4 @@
+void CWE761_Free_Pointer_Not_at_Start_of_Buffer__char_fixed_string_53c_badSink(char * data)
+{
+    CWE761_Free_Pointer_Not_at_Start_of_Buffer__char_fixed_string_53d_badSink(data);
+}

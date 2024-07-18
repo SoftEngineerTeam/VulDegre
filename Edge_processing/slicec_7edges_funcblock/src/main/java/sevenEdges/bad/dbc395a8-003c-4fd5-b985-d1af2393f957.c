@@ -1,0 +1,13 @@
+static void badVaSink(wchar_t * data, ...)
+{
+    if(badStatic)
+    {
+        {
+            va_list args;
+            va_start(args, data);
+            /* POTENTIAL FLAW: Do not specify the format allowing a possible format string vulnerability */
+            vfwprintf(stdout, data, args);
+            va_end(args);
+        }
+    }
+}

@@ -1,0 +1,4 @@
+void CWE134_Uncontrolled_Format_String__char_environment_vprintf_54b_badSink(char * data)
+{
+    CWE134_Uncontrolled_Format_String__char_environment_vprintf_54c_badSink(data);
+}

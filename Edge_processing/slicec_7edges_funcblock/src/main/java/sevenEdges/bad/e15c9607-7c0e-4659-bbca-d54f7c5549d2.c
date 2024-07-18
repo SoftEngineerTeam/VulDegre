@@ -1,0 +1,4 @@
+void CWE404_Improper_Resource_Shutdown__w32CreateFile_close_52b_badSink(HANDLE data)
+{
+    CWE404_Improper_Resource_Shutdown__w32CreateFile_close_52c_badSink(data);
+}
